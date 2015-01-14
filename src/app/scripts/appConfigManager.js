@@ -31,7 +31,8 @@ var defaultUserConfig = {
     notifyOnCompleted: false,
     useCustomRuby: false,
     rubyCommandPath: "",
-    compilers: {}
+    compilers: {},
+    ignoreUnderscore: true
 };
 
 var waitForReplaceFields = ['appVersion', 'compilers'];
