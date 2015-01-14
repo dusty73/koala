@@ -110,6 +110,10 @@ div#content
 		h2 {{Advanced}}
 		p.optionbox
 			label
+				input.compile_option(type="checkbox", id="global_filterUnderscore", data-name="filterUnderscore", data-rel="global", checked=appConfig.filterUnderscore)
+				span {{Filter files that start with "_"}}
+			br
+			label
 				input.compile_option(type="checkbox", id="global_useCustomRuby", data-name="useCustomRuby", data-rel="global", checked=appConfig.useCustomRuby)
 				span {{Use Custom Ruby}}
 			br
